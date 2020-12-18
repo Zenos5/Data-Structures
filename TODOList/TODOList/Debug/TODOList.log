@@ -1,0 +1,12 @@
+﻿  main.cpp
+C:\Users\Angel\source\repos\cs235\TODOList\TODOList\TodoList.h(39,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Angel\source\repos\cs235\TODOList\TODOList\TodoList.h(64,21): warning C4018: '<': signed/unsigned mismatch
+  Makefile
+C:\Users\Angel\source\repos\cs235\TODOList\TODOList\Makefile(1,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Angel\source\repos\cs235\TODOList\TODOList\Makefile(1,5): error C2059: syntax error: ':'
+C:\Users\Angel\source\repos\cs235\TODOList\TODOList\Makefile(1,11): error C3927: '->': trailing return type is not allowed after a non-function declarator
+C:\Users\Angel\source\repos\cs235\TODOList\TODOList\Makefile(1,11): error C3484: syntax error: expected '->' before the return type
+C:\Users\Angel\source\repos\cs235\TODOList\TODOList\Makefile(1,16): error C3613: missing return type after '->' ('int' assumed)
+C:\Users\Angel\source\repos\cs235\TODOList\TODOList\Makefile(1,16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Angel\source\repos\cs235\TODOList\TODOList\Makefile(1,12): error C2146: syntax error: missing ';' before identifier 'cpp'
+  Generating Code...

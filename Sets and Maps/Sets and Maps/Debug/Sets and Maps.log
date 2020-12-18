@@ -1,0 +1,13 @@
+﻿  main.cpp
+C:\Users\Angel\source\repos\cs235\Sets and Maps\Sets and Maps\main.cpp(53,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Angel\source\repos\cs235\Sets and Maps\Sets and Maps\main.cpp(80,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Makefile
+C:\Users\Angel\source\repos\cs235\Sets and Maps\Sets and Maps\Makefile(1,6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Angel\source\repos\cs235\Sets and Maps\Sets and Maps\Makefile(1,6): error C2065: 'g': undeclared identifier
+C:\Users\Angel\source\repos\cs235\Sets and Maps\Sets and Maps\Makefile(2,1): error C2146: syntax error: missing ';' before identifier 'CCFLAGS'
+C:\Users\Angel\source\repos\cs235\Sets and Maps\Sets and Maps\Makefile(4,11): error C3927: '->': trailing return type is not allowed after a non-function declarator
+C:\Users\Angel\source\repos\cs235\Sets and Maps\Sets and Maps\Makefile(4,11): error C3484: syntax error: expected '->' before the return type
+C:\Users\Angel\source\repos\cs235\Sets and Maps\Sets and Maps\Makefile(5,2): error C3613: missing return type after '->' ('int' assumed)
+C:\Users\Angel\source\repos\cs235\Sets and Maps\Sets and Maps\Makefile(5,2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Angel\source\repos\cs235\Sets and Maps\Sets and Maps\Makefile(4,12): error C2146: syntax error: missing ';' before identifier 'cpp'
+  Generating Code...
