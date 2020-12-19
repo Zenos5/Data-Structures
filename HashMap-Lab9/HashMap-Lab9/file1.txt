@@ -1,0 +1,14 @@
+size
+insert apple 3
+size
+insert carrot 7
+size
+insert grapefruit 1
+size
+insert banana 8
+size
+get apple
+get carrot
+get grapefruit
+get banana
+size

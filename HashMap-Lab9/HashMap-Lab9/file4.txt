@@ -1,0 +1,98 @@
+size
+[] Aachen 1
+[] Aachens 1
+[] aardvark 1
+[] aardvarks 1
+[] aardvarks 1
+[] Aarhus 1
+[] Aarhuss 1
+[] Aaron 1
+[] Aarons 1
+[] Aaronvitch 1
+[] Aaronvitchs 1
+[] Ababa 1
+[] Ababas 1
+[] aback 1
+[] abacus 1
+[] abacuses 1
+[] abacuss 1
+[] abaft 1
+[] abalone 1
+[] abalones 1
+[] abalones 1
+[] abandon 1
+[] abandoned 1
+[] abandoner 1
+size
+contains Aaron
+remove Aaron
+size
+remove abacus
+size
+remove zelda
+size
+contains abacus
+contains abaft
+contains zelda
+contains Aaron
+clear
+size
+contains Aachen
+contains Aaron
+[] Ayckbourn 1
+[] Ayckbourns 1
+[] aye 1
+[] Ayers 1
+[] ayes 1
+[] ayes 1
+[] Aylesbury 1
+[] Aylesburys 1
+[] Ayr 1
+[] Ayrs 1
+[] Ayrshire 1
+[] Ayrshires 1
+[] azalea 1
+[] azaleas 1
+[] azaleas 1
+[] Azerbaijan 1
+[] Azerbaijans 1
+[] Azeri 1
+[] Azeris 1
+[] Azikiwe 1
+[] Azikiwes 1
+[] azimuth 1
+[] azimuthal 1
+[] azimuthally 1
+[] azimuths 1
+[] azimuths 1
+[] Aziz 1
+[] Azizs 1
+[] Azores 1
+[] Azov 1
+[] Aztec 1
+[] Aztecan 1
+[] Aztecs 1
+[] azure 1
+[] azures 1
+size
+remove Aziz
+size
+remove Ayr
+size
+remove Azeri
+size
+contains azalea
+remove bob
+remove slob
+remove rob
+remove mob
+remove dob
+remove asov
+remove azalea
+remove cheese
+contains Azov
+contains Aziz
+contains Ayr
+contains Azeri
+contains Aaron
+contains azalea
