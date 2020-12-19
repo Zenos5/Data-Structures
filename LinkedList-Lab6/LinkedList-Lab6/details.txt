@@ -1,0 +1,693 @@
+out_file1.txt
+insertHead 1						      |	insertHead 1								
+insertTail 2						      |	insertTail 2								
+insertAfter 3 2						      |	insertAfter 3 2								
+size 3							      |	size 3								
+printList						      |	printList								
+  1 2 3							      |	  1 2 3								
+insertHead 0						      |	insertHead 0								
+insertTail 4						      |	insertTail 4								
+insertAfter 0 50					      |	insertAfter 0 50								
+insertAfter 50 51					      |	insertAfter 50 51								
+size 5							      |	size 5								
+printList						      |	printList								
+  0 1 2 3 4						      |	  0 1 2 3 4								
+size 5							      |	size 5								
+insertHead 1000						      |	insertHead 1000								
+size 6							      |	size 6								
+out_file2.txt
+size 0							      |	size 0								
+printList						      |	printList								
+  							      |	  								
+at 0 out_of_range					      |	at 0 out_of_range								
+at 1 out_of_range					      |	at 1 out_of_range								
+insertTail lazy						      |	insertTail lazy								
+size 1							      |	size 1								
+printList						      |	printList								
+  lazy							      |	  lazy								
+insertHead lazy						      |	insertHead lazy								
+size 1							      |	size 1								
+printList						      |	printList								
+  lazy							      |	  lazy								
+insertAfter dog. lazyy					      |	insertAfter dog. lazyy								
+size 1							      |	size 1								
+printList						      |	printList								
+  lazy							      |	  lazy								
+insertAfter dog. lazy					      |	insertAfter dog. lazy								
+size 2							      |	size 2								
+printList						      |	printList								
+  lazy dog.						      |	  lazy dog.								
+insertTail dog.						      |	insertTail dog.								
+size 2							      |	size 2								
+printList						      |	printList								
+  lazy dog.						      |	  lazy dog.								
+insertHead fox						      |	insertHead fox								
+size 3							      |	size 3								
+printList						      |	printList								
+  fox lazy dog.						      |	  fox lazy dog.								
+insertHead brown					      |	insertHead brown								
+size 4							      |	size 4								
+printList						      |	printList								
+  brown fox lazy dog.					      |	  brown fox lazy dog.								
+insertHead quick					      |	insertHead quick								
+size 5							      |	size 5								
+printList						      |	printList								
+  quick brown fox lazy dog.				      |	  quick brown fox lazy dog.								
+insertHead The						      |	insertHead The								
+size 6							      |	size 6								
+printList						      |	printList								
+  The quick brown fox lazy dog.				      |	  The quick brown fox lazy dog.								
+insertAfter quick brown					      |	insertAfter quick brown								
+size 6							      |	size 6								
+printList						      |	printList								
+  The quick brown fox lazy dog.				      |	  The quick brown fox lazy dog.								
+insertTail fox						      |	insertTail fox								
+size 6							      |	size 6								
+printList						      |	printList								
+  The quick brown fox lazy dog.				      |	  The quick brown fox lazy dog.								
+insertAfter the fox					      |	insertAfter the fox								
+size 7							      |	size 7								
+printList						      |	printList								
+  The quick brown fox the lazy dog.			      |	  The quick brown fox the lazy dog.								
+insertAfter jumps fox					      |	insertAfter jumps fox								
+size 8							      |	size 8								
+printList						      |	printList								
+  The quick brown fox jumps the lazy dog.		      |	  The quick brown fox jumps the lazy dog.								
+insertAfter over jumps					      |	insertAfter over jumps								
+size 9							      |	size 9								
+printList						      |	printList								
+  The quick brown fox jumps over the lazy dog.		      |	  The quick brown fox jumps over the lazy dog.								
+size 9							      |	size 9								
+printList						      |	printList								
+  The quick brown fox jumps over the lazy dog.		      |	  The quick brown fox jumps over the lazy dog.								
+at 0 The						      |	at 0 The								
+at 1 quick						      |	at 1 quick								
+at 2 brown						      |	at 2 brown								
+at 3 fox						      |	at 3 fox								
+at 4 jumps						      |	at 4 jumps								
+at 5 over						      |	at 5 over								
+at 6 the						      |	at 6 the								
+at 7 lazy						      |	at 7 lazy								
+at 8 dog.						      |	at 8 dog.								
+at 9 out_of_range					      |	at 9 out_of_range								
+at -1 out_of_range					      |	at -1 out_of_range								
+out_file3.txt
+insertHead 10						      |	insertHead 10								
+insertHead 9						      |	insertHead 9								
+insertHead 8						      |	insertHead 8								
+insertHead 7						      |	insertHead 7								
+insertHead 6						      |	insertHead 6								
+insertHead 5						      |	insertHead 5								
+insertHead 4						      |	insertHead 4								
+insertHead 3						      |	insertHead 3								
+insertHead 2						      |	insertHead 2								
+insertHead 1						      |	insertHead 1								
+insertHead 0						      |	insertHead 0								
+insertAfter -1 1					      |	insertAfter -1 1								
+insertAfter 9999 0					      |	insertAfter 9999 0								
+insertAfter 12 10					      |	insertAfter 12 10								
+size 14							      |	size 14								
+printList						      |	printList								
+  0 9999 1 -1 2 3 4 5 6 7 8 9 10 12			      |	  0 9999 1 -1 2 3 4 5 6 7 8 9 10 12								
+remove -1						      |	remove -1								
+size  13						      |	size  13								
+printList						      |	printList								
+  0 9999 1 2 3 4 5 6 7 8 9 10 12			      |	  0 9999 1 2 3 4 5 6 7 8 9 10 12								
+remove -1						      |	remove -1								
+size  13						      |	size  13								
+printList						      |	printList								
+  0 9999 1 2 3 4 5 6 7 8 9 10 12			      |	  0 9999 1 2 3 4 5 6 7 8 9 10 12								
+remove 15						      |	remove 15								
+size 13							      |	size 13								
+printList						      |	printList								
+  0 9999 1 2 3 4 5 6 7 8 9 10 12			      |	  0 9999 1 2 3 4 5 6 7 8 9 10 12								
+remove 9999						      |	remove 9999								
+size  12						      |	size  12								
+printList						      |	printList								
+  0 1 2 3 4 5 6 7 8 9 10 12				      |	  0 1 2 3 4 5 6 7 8 9 10 12								
+remove 10						      |	remove 10								
+size 11							      |	size 11								
+printList						      |	printList								
+  0 1 2 3 4 5 6 7 8 9 12				      |	  0 1 2 3 4 5 6 7 8 9 12								
+remove 0						      |	remove 0								
+size 10							      |	size 10								
+printList						      |	printList								
+  1 2 3 4 5 6 7 8 9 12					      |	  1 2 3 4 5 6 7 8 9 12								
+clear							      |	clear								
+size 0							      |	size 0								
+printList						      |	printList								
+  							      |	  								
+remove 1						      |	remove 1								
+size 0							      |	size 0								
+printList						      |	printList								
+  							      |	  								
+out_file4.txt
+insertTail Combing					      |	insertTail Combing								
+remove Combing						      |	remove Combing								
+insertTail Combing					      |	insertTail Combing								
+insertTail Coming					      |	insertTail Coming								
+insertTail front					      |	insertTail front								
+size 3							      |	size 3								
+printList						      |	printList								
+  Combing Coming front					      |	  Combing Coming front								
+remove front						      |	remove front								
+size 2							      |	size 2								
+printList						      |	printList								
+  Combing Coming					      |	  Combing Coming								
+insertTail back						      |	insertTail back								
+insertTail to						      |	insertTail to								
+insertTail where					      |	insertTail where								
+remove where						      |	remove where								
+size 4							      |	size 4								
+printList						      |	printList								
+  Combing Coming back to				      |	  Combing Coming back to								
+insertTail where					      |	insertTail where								
+size 5							      |	size 5								
+printList						      |	printList								
+  Combing Coming back to where				      |	  Combing Coming back to where								
+insertTail you						      |	insertTail you								
+insertTail started					      |	insertTail started								
+insertTail is						      |	insertTail is								
+insertTail not						      |	insertTail not								
+insertTail the						      |	insertTail the								
+insertTail same						      |	insertTail same								
+insertTail as						      |	insertTail as								
+insertTail never					      |	insertTail never								
+insertTail leavening.					      |	insertTail leavening.								
+insertTail leaving.					      |	insertTail leaving.								
+insertTail -Terry					      |	insertTail -Terry								
+insertTail Pratchett					      |	insertTail Pratchett								
+size 17							      |	size 17								
+printList						      |	printList								
+  Combing Coming back to where you started is not the same as |	  Combing Coming back to where you started is not the same as								
+remove Combing						      |	remove Combing								
+remove leavening.					      |	remove leavening.								
+remove computerviruses					      |	remove computerviruses								
+size 15							      |	size 15								
+printList						      |	printList								
+  Coming back to where you started is not the same as never l |	  Coming back to where you started is not the same as never l								
+clear							      |	clear								
+size 0							      |	size 0								
+printList						      |	printList								
+  							      |	  								
+clear							      |	clear								
+remove "string"						      |	remove "string"								
+remove -Terry						      |	remove -Terry								
+size 0							      |	size 0								
+printList						      |	printList								
+  							      |	  								
+out_file5.txt
+insertHead so,						      |	insertHead so,								
+size 1							      |	size 1								
+printList						      |	printList								
+  so,							      |	  so,								
+insertHead `my						      |	insertHead `my								
+insertTail ```````and					      |	insertTail ```````and								
+insertHead ```of					      |	insertHead ```of								
+insertAfter `all so,					      |	insertAfter `all so,								
+insertHead ``Annabel					      |	insertHead ``Annabel								
+insertAfter me, ``Annabel				      |	insertAfter me, ``Annabel								
+remove so,						      |	remove so,								
+insertAfter So ``Annabel				      |	insertAfter So ``Annabel								
+insertAfter men me,					      |	insertAfter men me,								
+insertAfter killing ```of				      |	insertAfter killing ```of								
+insertHead kingdom					      |	insertHead kingdom								
+insertAfter ``````was `my				      |	insertAfter ``````was `my								
+size 11							      |	size 11								
+printList						      |	printList								
+  kingdom ``Annabel So me, men ```of killing `my ``````was `a |	  kingdom ``Annabel So me, men ```of killing `my ``````was `a								
+insertAfter `kingdom kingdom				      |	insertAfter `kingdom kingdom								
+insertAfter it `my					      |	insertAfter it `my								
+insertHead By						      |	insertHead By								
+insertTail ``````her					      |	insertTail ``````her								
+insertAfter eyes ``````was				      |	insertAfter eyes ``````was								
+insertTail `````````````````````````the			      |	insertTail `````````````````````````the								
+insertAfter other kingdom				      |	insertAfter other kingdom								
+insertAfter from So					      |	insertAfter from So								
+remove `my						      |	remove `my								
+insertAfter `she other					      |	insertAfter `she other								
+insertAfter sea) men					      |	insertAfter sea) men								
+insertAfter ``in ``````was				      |	insertAfter ``in ``````was								
+remove men						      |	remove men								
+insertTail `````````````````````````the			      |	insertTail `````````````````````````the								
+insertAfter reason `kingdom				      |	insertAfter reason `kingdom								
+size 21							      |	size 21								
+printList						      |	printList								
+  By kingdom other `she `kingdom reason ``Annabel So from me, |	  By kingdom other `she `kingdom reason ``Annabel So from me,								
+insertAfter love— `kingdom				      |	insertAfter love— `kingdom								
+insertAfter so, eyes					      |	insertAfter so, eyes								
+insertAfter older ``````was				      |	insertAfter older ``````was								
+insertTail `sea.					      |	insertTail `sea.								
+remove `kingdom						      |	remove `kingdom								
+insertAfter `````````````````the ``in			      |	insertAfter `````````````````the ``in								
+remove from						      |	remove from								
+insertHead ```````and					      |	insertHead ```````and								
+insertAfter `came sea)					      |	insertAfter `came sea)								
+insertAfter 1849 By					      |	insertAfter 1849 By								
+insertAfter `````And eyes				      |	insertAfter `````And eyes								
+insertAfter But `she					      |	insertAfter But `she								
+insertAfter `In `she					      |	insertAfter `In `she								
+insertAfter ```love killing				      |	insertAfter ```love killing								
+insertAfter ``a kingdom					      |	insertAfter ``a kingdom								
+remove love—						      |	remove love—								
+insertAfter bringing `````````````````the		      |	insertAfter bringing `````````````````the								
+size 31							      |	size 31								
+printList						      |	printList								
+  By 1849 kingdom ``a other `she `In But reason ``Annabel So  |	  By 1849 kingdom ``a other `she `In But reason ``Annabel So 								
+insertAfter with ``a					      |	insertAfter with ``a								
+remove bringing						      |	remove bringing								
+size 31							      |	size 31								
+printList						      |	printList								
+  By 1849 kingdom ``a with other `she `In But reason ``Annabe |	  By 1849 kingdom ``a with other `she `In But reason ``Annabe								
+insertAfter up me,					      |	insertAfter up me,								
+insertAfter ````the But					      |	insertAfter ````the But								
+remove `In						      |	remove `In								
+insertAfter ```this reason				      |	insertAfter ```this reason								
+insertAfter `I But					      |	insertAfter `I But								
+insertAfter `ago, reason				      |	insertAfter `ago, reason								
+insertAfter sea. up					      |	insertAfter sea. up								
+insertAfter half sea.					      |	insertAfter half sea.								
+insertAfter ``and other					      |	insertAfter ``and other								
+remove `````````````````````````the			      |	remove `````````````````````````the								
+insertAfter ```I `all					      |	insertAfter ```I `all								
+insertAfter far ``````was				      |	insertAfter far ``````was								
+insertTail By						      |	insertTail By								
+insertAfter stronger ``````was				      |	insertAfter stronger ``````was								
+insertAfter `Annabel `I					      |	insertAfter `Annabel `I								
+size 41							      |	size 41								
+printList						      |	printList								
+  By 1849 kingdom ``a with other ``and `she But `I `Annabel ` |	  By 1849 kingdom ``a with other ``and `she But `I `Annabel `								
+insertAfter ``sea, ```this				      |	insertAfter ``sea, ```this								
+insertAfter child, `she					      |	insertAfter child, `she								
+insertAfter many 1849					      |	insertAfter many 1849								
+remove But						      |	remove But								
+insertAfter moon `````````````````the			      |	insertAfter moon `````````````````the								
+insertAfter by kingdom					      |	insertAfter by kingdom								
+insertAfter That by					      |	insertAfter That by								
+insertAfter angels, sea.				      |	insertAfter angels, sea.								
+insertAfter ```the `Annabel				      |	insertAfter ```the `Annabel								
+insertAfter soul ``in					      |	insertAfter soul ``in								
+insertAfter My ``sea,					      |	insertAfter My ``sea,								
+insertAfter this ``a					      |	insertAfter this ``a								
+size 51							      |	size 51								
+printList						      |	printList								
+  By 1849 many kingdom by That ``a this with other ``and `she |	  By 1849 many kingdom by That ``a this with other ``and `she								
+insertAfter ``Lee; soul					      |	insertAfter ``Lee; soul								
+insertAfter Lee— `Annabel				      |	insertAfter Lee— `Annabel								
+insertAfter `many many					      |	insertAfter `many many								
+insertAfter `down ```I					      |	insertAfter `down ```I								
+insertAfter who far					      |	insertAfter who far								
+insertAfter away So					      |	insertAfter away So								
+remove so,						      |	remove so,								
+insertAfter so, `````And				      |	insertAfter so, `````And								
+insertAfter ````Of eyes					      |	insertAfter ````Of eyes								
+insertAfter ```````````````the soul			      |	insertAfter ```````````````the soul								
+insertAfter ``that So					      |	insertAfter ``that So								
+insertAfter sounding ``````her				      |	insertAfter sounding ``````her								
+size 61							      |	size 61								
+printList						      |	printList								
+  By 1849 many `many kingdom by That ``a this with other ``an |	  By 1849 many `many kingdom by That ``a this with other ``an								
+insertAfter ```````````the far				      |	insertAfter ```````````the far								
+insertAfter dissever ``in				      |	insertAfter dissever ``in								
+insertAfter wiser older					      |	insertAfter wiser older								
+insertAfter `of ```the					      |	insertAfter `of ```the								
+insertAfter It 1849					      |	insertAfter It 1849								
+remove ```the						      |	remove ```the								
+insertAfter were who					      |	insertAfter were who								
+insertAfter `````by half				      |	insertAfter `````by half								
+insertAfter `far older					      |	insertAfter `far older								
+insertAfter sea, by					      |	insertAfter sea, by								
+insertAfter ````````````````the ```````````````the	      |	insertAfter ````````````````the ```````````````the								
+insertAfter know ``a					      |	insertAfter know ``a								
+size 71							      |	size 71								
+printList						      |	printList								
+  By 1849 It many `many kingdom by sea, That ``a know this wi |	  By 1849 It many `many kingdom by sea, That ``a know this wi								
+insertAfter ````Annabel ````````````````the		      |	insertAfter ````Annabel ````````````````the								
+remove so,						      |	remove so,								
+insertAfter this `never					      |	insertAfter this `never								
+size 71							      |	size 71								
+printList						      |	printList								
+  By 1849 It many `many kingdom by sea, That ``a know this wi |	  By 1849 It many `many kingdom by sea, That ``a know this wi								
+insertAfter `But killing				      |	insertAfter `But killing								
+insertAfter not angels,					      |	insertAfter not angels,								
+insertAfter `beautiful ````````````````the		      |	insertAfter `beautiful ````````````````the								
+insertAfter ```````````````````````the `down		      |	insertAfter ```````````````````````the `down								
+insertAfter who we					      |	insertAfter who we								
+insertAfter Lee; know					      |	insertAfter Lee; know								
+insertAfter stars moon					      |	insertAfter stars moon								
+insertAfter cloud, ``sea,				      |	insertAfter cloud, ``sea,								
+insertAfter there ``a					      |	insertAfter there ``a								
+remove ```love						      |	remove ```love								
+insertAfter `````````the sea)				      |	insertAfter `````````the sea)								
+insertAfter ````by up					      |	insertAfter ````by up								
+insertAfter neither wiser				      |	insertAfter neither wiser								
+size 81							      |	size 81								
+printList						      |	printList								
+  By 1849 It many `many kingdom by sea, That ``a there know L |	  By 1849 It many `many kingdom by sea, That ``a there know L								
+insertAfter ````Lee; ````Of				      |	insertAfter ````Lee; ````Of								
+insertHead ````````````````the				      |	insertHead ````````````````the								
+insertAfter `reason half				      |	insertAfter `reason half								
+insertAfter beautiful My				      |	insertAfter beautiful My								
+insertAfter ``that never				      |	insertAfter ``that never								
+insertAfter ```````````````````the moon			      |	insertAfter ```````````````````the moon								
+insertAfter ```````a ``sea,				      |	insertAfter ```````a ``sea,								
+insertAfter be other					      |	insertAfter be other								
+insertAfter ````````````the neither			      |	insertAfter ````````````the neither								
+insertAfter sepulchre up				      |	insertAfter sepulchre up								
+insertAfter ````````by `down				      |	insertAfter ````````by `down								
+insertAfter ```a be					      |	insertAfter ```a be								
+size 91							      |	size 91								
+printList						      |	printList								
+  By 1849 It many `many kingdom by sea, That ``a there know L |	  By 1849 It many `many kingdom by sea, That ``a there know L								
+insertAfter highborn ``that				      |	insertAfter highborn ``that								
+insertAfter more child,					      |	insertAfter more child,								
+insertAfter men `reason					      |	insertAfter men `reason								
+insertAfter With Lee—					      |	insertAfter With Lee—								
+insertAfter Chilling ```of				      |	insertAfter Chilling ```of								
+insertAfter life ```````````````````````the		      |	insertAfter life ```````````````````````the								
+remove up						      |	remove up								
+insertAfter `````````````````````the ````Of		      |	insertAfter `````````````````````the ````Of								
+insertAfter ``````````````````````the `all		      |	insertAfter ``````````````````````the `all								
+insertAfter ``kingdom ```this				      |	insertAfter ``kingdom ```this								
+insertHead ``and					      |	insertHead ``and								
+insertAfter ``````````by ``````her			      |	insertAfter ``````````by ``````her								
+insertAfter ``than older				      |	insertAfter ``than older								
+size 101						      |	size 101								
+printList						      |	printList								
+  By 1849 It many `many kingdom by sea, That ``a there know L |	  By 1849 It many `many kingdom by sea, That ``a there know L								
+insertAfter ````````````````````````the ```````and	      |	insertAfter ````````````````````````the ```````and								
+insertAfter down ``in					      |	insertAfter down ``in								
+remove other						      |	remove other								
+insertAfter maiden ``a					      |	insertAfter maiden ``a								
+insertAfter ``Of ```````````````the			      |	insertAfter ``Of ```````````````the								
+insertAfter blew ``sea,					      |	insertAfter blew ``sea,								
+insertAfter ````````a me,				      |	insertAfter ````````a me,								
+remove ``than						      |	remove ``than								
+insertAfter `````the ``kingdom				      |	insertAfter `````the ``kingdom								
+insertAfter Coveted `of					      |	insertAfter Coveted `of								
+insertAfter never moon					      |	insertAfter never moon								
+insertAfter beams, never				      |	insertAfter beams, never								
+insertAfter demons ``in					      |	insertAfter demons ``in								
+insertAfter Edgar By					      |	insertAfter Edgar By								
+remove who						      |	remove who								
+insertAfter ```love `But				      |	insertAfter ```love `But								
+size 111						      |	size 111								
+printList						      |	printList								
+  By Edgar 1849 It many `many kingdom by sea, That ``a maiden |	  By Edgar 1849 It many `many kingdom by sea, That ``a maiden								
+insertAfter and many					      |	insertAfter and many								
+remove more						      |	remove more								
+insertHead `sea.					      |	insertHead `sea.								
+size 111						      |	size 111								
+printList						      |	printList								
+  By Edgar 1849 It many and `many kingdom by sea, That ``a ma |	  By Edgar 1849 It many and `many kingdom by sea, That ``a ma								
+insertAfter side ```````````````````````the		      |	insertAfter side ```````````````````````the								
+insertAfter I be					      |	insertAfter I be								
+insertAfter ```Of beams,				      |	insertAfter ```Of beams,								
+insertAfter `with child,				      |	insertAfter `with child,								
+insertAfter `was I					      |	insertAfter `was I								
+insertAfter ``Lee; `her					      |	insertAfter ``Lee; `her								
+insertAfter love— `with					      |	insertAfter love— `with								
+insertAfter a `many					      |	insertAfter a `many								
+insertHead killing					      |	insertHead killing								
+insertAfter In a					      |	insertAfter In a								
+insertAfter ```Lee; ```Of				      |	insertAfter ```Lee; ```Of								
+insertAfter `````````````````````````the ``````````by	      |	insertAfter `````````````````````````the ``````````by								
+size 121						      |	size 121								
+printList						      |	printList								
+  By Edgar 1849 It many and `many a In kingdom by sea, That ` |	  By Edgar 1849 It many and `many a In kingdom by sea, That `								
+insertAfter above ``in					      |	insertAfter above ``in								
+insertAfter `love `with					      |	insertAfter `love `with								
+insertAfter `Of older					      |	insertAfter `Of older								
+remove ``````````by					      |	remove ``````````by								
+insertAfter me. be					      |	insertAfter me. be								
+insertAfter ```and `I					      |	insertAfter ```and `I								
+insertHead `many					      |	insertHead `many								
+insertAfter ``````my ```````and				      |	insertAfter ``````my ```````and								
+remove kingdom						      |	remove kingdom								
+insertAfter was It					      |	insertAfter was It								
+insertAfter of know					      |	insertAfter of know								
+insertAfter `from soul					      |	insertAfter `from soul								
+remove ``````````````````````the			      |	remove ``````````````````````the								
+insertAfter under down					      |	insertAfter under down								
+remove ```and						      |	remove ```and								
+insertAfter my `I					      |	insertAfter my `I								
+insertAfter ``In `ago,					      |	insertAfter ``In `ago,								
+insertAfter all `reason					      |	insertAfter all `reason								
+insertAfter than `love					      |	insertAfter than `love								
+remove far						      |	remove far								
+insertAfter `In child,					      |	insertAfter `In child,								
+size 131						      |	size 131								
+printList						      |	printList								
+  By Edgar 1849 It was many and `many a In by sea, That ``a m |	  By Edgar 1849 It was many and `many a In by sea, That ``a m								
+insertAfter know, men					      |	insertAfter know, men								
+insertAfter `````````by ``````my			      |	insertAfter `````````by ``````my								
+insertAfter `````and half				      |	insertAfter `````and half								
+insertAfter may there					      |	insertAfter may there								
+insertAfter cloud ```of					      |	insertAfter cloud ```of								
+insertAfter so, `````And				      |	insertAfter so, `````And								
+insertAfter ``many `Of					      |	insertAfter ``many `Of								
+insertAfter `And Coveted				      |	insertAfter `And Coveted								
+remove never						      |	remove never								
+insertAfter `my killing					      |	insertAfter `my killing								
+insertAfter came highborn				      |	insertAfter came highborn								
+insertAfter that, reason				      |	insertAfter that, reason								
+remove ``many						      |	remove ``many								
+insertAfter wingèd With					      |	insertAfter wingèd With								
+size 141						      |	size 141								
+printList						      |	printList								
+  By Edgar 1849 It was many and `many a In by sea, That ``a m |	  By Edgar 1849 It was many and `many a In by sea, That ``a m								
+insertAfter ````her half				      |	insertAfter ````her half								
+insertAfter Lee. `my					      |	insertAfter Lee. `my								
+insertAfter loved be					      |	insertAfter loved be								
+insertAfter lie ```I					      |	insertAfter lie ```I								
+insertAfter `Lee; ``Annabel				      |	insertAfter `Lee; ``Annabel								
+insertAfter Heaven, half				      |	insertAfter Heaven, half								
+insertAfter ``````````````the under			      |	insertAfter ``````````````the under								
+insertAfter `````her ``````my				      |	insertAfter `````her ``````my								
+insertAfter `That sea)					      |	insertAfter `That sea)								
+insertAfter `kingdom `In				      |	insertAfter `kingdom `In								
+size 151						      |	size 151								
+printList						      |	printList								
+  By Edgar 1849 It was many and `many a In by sea, That ``a m |	  By Edgar 1849 It was many and `many a In by sea, That ``a m								
+insertAfter ````was `And				      |	insertAfter ````was `And								
+insertAfter `than stronger				      |	insertAfter `than stronger								
+insertAfter ``than older				      |	insertAfter ``than older								
+insertAfter cloud, love—				      |	insertAfter cloud, love—								
+insertAfter ```by ``kingdom				      |	insertAfter ```by ``kingdom								
+insertAfter ````and Coveted				      |	insertAfter ````and Coveted								
+insertAfter bright stars				      |	insertAfter bright stars								
+insertAfter Poe Edgar					      |	insertAfter Poe Edgar								
+insertAfter Can ``````````````the			      |	insertAfter Can ``````````````the								
+insertAfter we— ``than					      |	insertAfter we— ``than								
+insertAfter you there					      |	insertAfter you there								
+size 161						      |	size 161								
+printList						      |	printList								
+  By Edgar Poe 1849 It was many and `many a In by sea, That ` |	  By Edgar Poe 1849 It was many and `many a In by sea, That `								
+insertAfter out blew					      |	insertAfter out blew								
+insertAfter ```Annabel `my				      |	insertAfter ```Annabel `my								
+remove maiden						      |	remove maiden								
+insertAfter lived there					      |	insertAfter lived there								
+insertAfter `sepulchre `````her				      |	insertAfter `sepulchre `````her								
+remove ````````````the					      |	remove ````````````the								
+insertAfter ```And wiser				      |	insertAfter ```And wiser								
+insertAfter `wind `````````the				      |	insertAfter `wind `````````the								
+insertAfter `we— wiser					      |	insertAfter `we— wiser								
+insertAfter `````Of side				      |	insertAfter `````Of side								
+insertAfter never moon					      |	insertAfter never moon								
+insertAfter `By know					      |	insertAfter `By know								
+insertAfter For ``Lee;					      |	insertAfter For ``Lee;								
+insertAfter Allen Edgar					      |	insertAfter Allen Edgar								
+insertAfter sounding child,				      |	insertAfter sounding child,								
+size 171						      |	size 171								
+printList						      |	printList								
+  By Edgar Allen Poe 1849 It was many and `many a In by sea,  |	  By Edgar Allen Poe 1849 It was many and `many a In by sea, 								
+insertAfter ``````by cloud				      |	insertAfter ``````by cloud								
+insertAfter ``````````````````````the `all		      |	insertAfter ``````````````````````the `all								
+insertAfter ago, a					      |	insertAfter ago, a								
+insertAfter whom lived					      |	insertAfter whom lived								
+insertAfter `her ``that					      |	insertAfter `her ``that								
+remove ````````a					      |	remove ````````a								
+insertAfter ``the `kingdom				      |	insertAfter ``the `kingdom								
+insertAfter in me,					      |	insertAfter in me,								
+remove `from						      |	remove `from								
+insertAfter more `love					      |	insertAfter more `love								
+insertAfter `````````````the above			      |	insertAfter `````````````the above								
+insertAfter ```and `I					      |	insertAfter ```and `I								
+insertAfter ````my `````Of				      |	insertAfter ````my `````Of								
+insertAfter `loved ``the				      |	insertAfter `loved ``the								
+remove ````````````````the				      |	remove ````````````````the								
+insertAfter kingdom In					      |	insertAfter kingdom In								
+size 181						      |	size 181								
+printList						      |	printList								
+  By Edgar Allen Poe 1849 It was many and `many a ago, In kin |	  By Edgar Allen Poe 1849 It was many and `many a ago, In kin								
+insertAfter without beams,				      |	insertAfter without beams,								
+insertTail `we—						      |	insertTail `we—								
+insertAfter `from soul					      |	insertAfter `from soul								
+insertAfter ``````Annabel `````````````````````the	      |	insertAfter ``````Annabel `````````````````````the								
+insertAfter `soul ```````````````the			      |	insertAfter `soul ```````````````the								
+remove not						      |	remove not								
+insertAfter me without					      |	insertAfter me without								
+insertAfter ``this `And					      |	insertAfter ``this `And								
+insertAfter lie cloud					      |	insertAfter lie cloud								
+insertAfter year a					      |	insertAfter year a								
+insertHead and						      |	insertHead and								
+insertAfter ````this sepulchre				      |	insertAfter ````this sepulchre								
+insertAfter ```````by stronger				      |	insertAfter ```````by stronger								
+insertAfter ````by me.					      |	insertAfter ````by me.								
+insertAfter her Coveted					      |	insertAfter her Coveted								
+insertAfter seraphs wingèd				      |	insertAfter seraphs wingèd								
+size 191						      |	size 191								
+printList						      |	printList								
+  By Edgar Allen Poe 1849 It was many and `many a year ago, I |	  By Edgar Allen Poe 1849 It was many and `many a year ago, I								
+insertAfter other with					      |	insertAfter other with								
+insertAfter ````kingdom know,				      |	insertAfter ````kingdom know,								
+insertAfter dreams me					      |	insertAfter dreams me								
+insertAfter `and other					      |	insertAfter `and other								
+insertAfter lie `````by					      |	insertAfter lie `````by								
+insertAfter the by					      |	insertAfter the by								
+insertAfter maiden ``a					      |	insertAfter maiden ``a								
+insertAfter night, ``````by				      |	insertAfter night, ``````by								
+remove `sea.						      |	remove `sea.								
+insertAfter ````````````````````the stars		      |	insertAfter ````````````````````the stars								
+insertAfter ````````````````the ``Of			      |	insertAfter ````````````````the ``Of								
+insertAfter darling— `````Of				      |	insertAfter darling— `````Of								
+remove that,						      |	remove that,								
+insertTail `sea.					      |	insertTail `sea.								
+remove `And						      |	remove `And								
+insertAfter happy half					      |	insertAfter happy half								
+insertAfter ```than wiser				      |	insertAfter ```than wiser								
+size 201						      |	size 201								
+printList						      |	printList								
+  By Edgar Allen Poe 1849 It was many and `many a year ago, I |	  By Edgar Allen Poe 1849 It was many and `many a year ago, I								
+insertAfter `there `sepulchre				      |	insertAfter `there `sepulchre								
+insertAfter `the `By					      |	insertAfter `the `By								
+insertAfter bore came					      |	insertAfter bore came								
+insertAfter night-tide, ``````````````````````the	      |	insertAfter night-tide, ``````````````````````the								
+insertAfter And Lee;					      |	insertAfter And Lee;								
+insertAfter our `But					      |	insertAfter our `But								
+remove moon						      |	remove moon								
+insertAfter tomb ``````her				      |	insertAfter tomb ``````her								
+insertAfter Annabel of					      |	insertAfter Annabel of								
+insertAfter love other					      |	insertAfter love other								
+insertAfter sea, night-tide,				      |	insertAfter sea, night-tide,								
+insertAfter To me,					      |	insertAfter To me,								
+insertAfter far ```````by				      |	insertAfter far ```````by								
+remove `````````````````````````the			      |	remove `````````````````````````the								
+insertAfter moon `````````````````the			      |	insertAfter moon `````````````````the								
+remove ``````````````the				      |	remove ``````````````the								
+insertAfter who ```````````the				      |	insertAfter who ```````````the								
+remove ````her						      |	remove ````her								
+insertTail than						      |	insertTail than								
+insertAfter `lived this					      |	insertAfter `lived this								
+size 211						      |	size 211								
+printList						      |	printList								
+  By Edgar Allen Poe 1849 It was many and `many a year ago, I |	  By Edgar Allen Poe 1849 It was many and `many a year ago, I								
+insertAfter me— `````and				      |	insertAfter me— `````and								
+insertAfter those ```````````the			      |	insertAfter those ```````````the								
+remove ``in						      |	remove ``in								
+insertAfter `by loved					      |	insertAfter `by loved								
+insertAfter `this `In					      |	insertAfter `this `In								
+insertAfter ```the With					      |	insertAfter ```the With								
+insertAfter that, reason				      |	insertAfter that, reason								
+insertAfter ``````the ````by				      |	insertAfter ``````the ````by								
+insertHead me,						      |	insertHead me,								
+insertAfter shut To					      |	insertAfter shut To								
+insertAfter ```my `````Of				      |	insertAfter ```my `````Of								
+insertAfter `````was me—				      |	insertAfter `````was me—								
+insertAfter long that,					      |	insertAfter long that,								
+size 221						      |	size 221								
+printList						      |	printList								
+  By Edgar Allen Poe 1849 It was many and `many a year ago, I |	  By Edgar Allen Poe 1849 It was many and `many a year ago, I								
+insertAfter that `love					      |	insertAfter that `love								
+insertAfter ```kingdom ````this				      |	insertAfter ```kingdom ````this								
+insertAfter bride, ``````my				      |	insertAfter bride, ``````my								
+remove Edgar						      |	remove Edgar								
+insertAfter ``````````````````the ```Of			      |	insertAfter ``````````````````the ```Of								
+insertTail far						      |	insertTail far								
+insertAfter ``my dissever				      |	insertAfter ``my dissever								
+insertAfter (as `reason					      |	insertAfter (as `reason								
+insertAfter from away					      |	insertAfter from away								
+insertAfter —that me—					      |	insertAfter —that me—								
+insertAfter `And ````and				      |	insertAfter `And ````and								
+insertAfter ``````````by tomb				      |	insertAfter ``````````by tomb								
+remove `wind						      |	remove `wind								
+insertAfter ``and ago,					      |	insertAfter ``and ago,								
+insertAfter Heaven `of					      |	insertAfter Heaven `of								
+insertAfter Went Heaven,				      |	insertAfter Went Heaven,								
+size 231						      |	size 231								
+printList						      |	printList								
+  By Allen Poe 1849 It was many and `many a year ago, In king |	  By Allen Poe 1849 It was many and `many a year ago, In king								
+insertAfter `````Annabel ``````````````````the		      |	insertAfter `````Annabel ``````````````````the								
+insertAfter ``was `she					      |	insertAfter ``was `she								
+insertAfter `that With					      |	insertAfter `that With								
+insertHead long						      |	insertHead long								
+insertAfter `sea, ``the					      |	insertAfter `sea, ``the								
+insertAfter `a In					      |	insertAfter `a In								
+insertAfter The sea.					      |	insertAfter The sea.								
+insertHead ``and					      |	insertHead ``and								
+insertAfter `````````````````````````the ``````````by	      |	insertAfter `````````````````````````the ``````````by								
+insertAfter ``````````the ```of				      |	insertAfter ``````````the ```of								
+insertAfter but stars					      |	insertAfter but stars								
+remove bright						      |	remove bright								
+insertAfter `darling— ````my				      |	insertAfter `darling— ````my								
+insertAfter so half					      |	insertAfter so half								
+size 241						      |	size 241								
+printList						      |	printList								
+  By Allen Poe 1849 It was many and `many a year ago, In `a k |	  By Allen Poe 1849 It was many and `many a year ago, In `a k								
+insertAfter ```````the `````was				      |	insertAfter ```````the `````was								
+remove ```````a						      |	remove ```````a								
+size 241						      |	size 241								
+printList						      |	printList								
+  By Allen Poe 1849 It was many and `many a year ago, In `a k |	  By Allen Poe 1849 It was many and `many a year ago, In `a k								
+insertAfter kinsmen highborn				      |	insertAfter kinsmen highborn								
+insertAfter angels neither				      |	insertAfter angels neither								
+insertAfter we `sea,					      |	insertAfter we `sea,								
+insertAfter Of ```````````the				      |	insertAfter Of ```````````the								
+insertAfter `in happy					      |	insertAfter `in happy								
+insertAfter ``of out					      |	insertAfter ``of out								
+insertTail in						      |	insertTail in								
+insertAfter not angels,					      |	insertAfter not angels,								
+insertAfter ````In know,				      |	insertAfter ````In know,								
+remove `far						      |	remove `far								
+insertAfter sea under					      |	insertAfter sea under								
+insertAfter kinsmen child				      |	insertAfter kinsmen child								
+insertAfter `far `Of					      |	insertAfter `far `Of								
+insertAfter `````this ````In				      |	insertAfter `````this ````In								
+remove above						      |	remove above								
+insertAfter ``````In ````````````````````````the	      |	insertAfter ``````In ````````````````````````the								
+size 251						      |	size 251								
+printList						      |	printList								
+  By Allen Poe 1849 It was many and `many a year ago, In `a k |	  By Allen Poe 1849 It was many and `many a year ago, In `a k								
+insertAfter `maiden this				      |	insertAfter `maiden this								
+insertAfter name `the					      |	insertAfter name `the								
+insertAfter ```In sepulchre				      |	insertAfter ```In sepulchre								
+insertAfter ``And came					      |	insertAfter ``And came								
+insertAfter ever Can					      |	insertAfter ever Can								
+remove ```a						      |	remove ```a								
+insertAfter ````a ``was					      |	insertAfter ````a ``was								
+insertAfter ``by `kingdom				      |	insertAfter ``by `kingdom								
+insertAfter `wind `````````the				      |	insertAfter `wind `````````the								
+insertAfter eyes it					      |	insertAfter eyes it								
+insertAfter ````````a in				      |	insertAfter ````````a in								
+insertAfter `out `came					      |	insertAfter `out `came								
+insertAfter Edgar By					      |	insertAfter Edgar By								
+insertTail `Annabel					      |	insertTail `Annabel								
+size 261						      |	size 261								
+printList						      |	printList								
+  By Edgar Allen Poe 1849 It was many and `many a year ago, I |	  By Edgar Allen Poe 1849 It was many and `many a year ago, I								
+insertAfter `````In bride,				      |	insertAfter `````In bride,								
+insertAfter ````And ```Lee;				      |	insertAfter ````And ```Lee;								
+insertAfter bright ````````````````````the		      |	insertAfter bright ````````````````````the								
+insertAfter Can `````by					      |	insertAfter Can `````by								
+insertAfter ``her bore					      |	insertAfter ``her bore								
+insertAfter ```was that					      |	insertAfter ```was that								
+insertAfter `Heaven angels				      |	insertAfter `Heaven angels								
+remove `lived						      |	remove `lived								
+insertAfter ```````a ``of				      |	insertAfter ```````a ``of								
+insertAfter Yes! me—					      |	insertAfter Yes! me—								
+insertAfter `me. ````and				      |	insertAfter `me. ````and								
+insertAfter ``````and Chilling				      |	insertAfter ``````and Chilling								
+insertAfter ``love With					      |	insertAfter ``love With								
+size 271						      |	size 271								
+printList						      |	printList								
+  By Edgar Allen Poe 1849 It was many and `many a year ago, I |	  By Edgar Allen Poe 1849 It was many and `many a year ago, I								

@@ -1,0 +1,16 @@
+﻿  main.cpp
+C:\Users\Angel\source\repos\cs235\Lab4-Maze\Lab4-Maze\main.cpp(141,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Angel\source\repos\cs235\Lab4-Maze\Lab4-Maze\main.cpp(152,20): warning C4018: '<': signed/unsigned mismatch
+  Makefile
+C:\Users\Angel\source\repos\cs235\Lab4-Maze\Lab4-Maze\Makefile(1,6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Angel\source\repos\cs235\Lab4-Maze\Lab4-Maze\Makefile(1,6): error C2065: 'g': undeclared identifier
+C:\Users\Angel\source\repos\cs235\Lab4-Maze\Lab4-Maze\Makefile(2,1): error C2146: syntax error: missing ';' before identifier 'CCFLAGS'
+C:\Users\Angel\source\repos\cs235\Lab4-Maze\Lab4-Maze\Makefile(4,11): error C3927: '->': trailing return type is not allowed after a non-function declarator
+C:\Users\Angel\source\repos\cs235\Lab4-Maze\Lab4-Maze\Makefile(4,11): error C3484: syntax error: expected '->' before the return type
+C:\Users\Angel\source\repos\cs235\Lab4-Maze\Lab4-Maze\Makefile(4,16): error C3613: missing return type after '->' ('int' assumed)
+C:\Users\Angel\source\repos\cs235\Lab4-Maze\Lab4-Maze\Makefile(4,16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Angel\source\repos\cs235\Lab4-Maze\Lab4-Maze\Makefile(4,12): error C2146: syntax error: missing ';' before identifier 'cpp'
+C:\Users\Angel\source\repos\cs235\Lab4-Maze\Lab4-Maze\Makefile(8,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Angel\source\repos\cs235\Lab4-Maze\Lab4-Maze\Makefile(8,5): error C2146: syntax error: missing ';' before identifier 'maze'
+  Pathfinder.cpp
+  Generating Code...

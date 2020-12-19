@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\Angel\source\repos\Palindrome\Palindrome\main.cpp(10,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Angel\source\repos\Palindrome\Palindrome\main.cpp(15,23): warning C4018: '<': signed/unsigned mismatch
+  Palindrome.vcxproj -> C:\Users\Angel\source\repos\Palindrome\Debug\Palindrome.exe
