@@ -1,0 +1,5 @@
+﻿  Race.cpp
+C:\Users\Angel\source\repos\cs235\Pinewood\Pinewood\Race.cpp(29,23): warning C4018: '<': signed/unsigned mismatch
+  Rocket.cpp
+  Generating Code...
+  Pinewood.vcxproj -> C:\Users\Angel\source\repos\cs235\Pinewood\Debug\Pinewood.exe
